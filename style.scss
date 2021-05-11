@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  .container {
+    max-width: 1920px;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap");
+}
+@import "bhromaon.scss";
+@import "why.scss";
+@import "spain";
+@import "what";
+@import "footer";
+@import "@media";

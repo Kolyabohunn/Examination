@@ -1,0 +1,30 @@
+.footer__box {
+  width: 100%;
+  min-height: 268px;
+  background: rgba(0, 0, 0, 1);
+  text-align: center;
+  display: flex;
+  align-content: center;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 275px;
+    li {
+      list-style-type: none;
+    }
+  }
+  .footer__subtitle {
+    //styleName: Body 1;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: rgb(255, 255, 255);
+  }
+  .footer__links:hover {
+    fill: rgb(73, 75, 179);
+  }
+}

@@ -1,0 +1,114 @@
+.bhromaon__row {
+  background: url("img/HeaderBackground.jpg") 100%;
+  background-size: cover;
+  width: 100%;
+  min-height: 862px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  .bhromaon__box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+
+    .bhromaon__title {
+      //styleName: Heading 1;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px;
+      color: rgb(255, 255, 255);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+    .bhromaon__subtitle {
+      //styleName: Subheading;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0.31em;
+      color: rgb(255, 255, 255);
+      margin-bottom: 48px;
+    }
+    .bhromaon__search {
+      width: 647px;
+      border: 1px solid rgb(255, 255, 255);
+      min-height: 60px;
+      background: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .bhromaon__btn {
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        vertical-align: middle;
+        //styleName: Body 1;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        width: 70%;
+      }
+      .bhromaon__btn::placeholder {
+        padding-left: 36px;
+      }
+      .bhromaon__btn2 {
+        text-transform: uppercase;
+        width: 139px;
+        height: 52px;
+        border: none;
+        background: url("img/search.svg") no-repeat 20% 50%
+          rgba(83, 115, 253, 1);
+        background-size: 16px;
+        padding-left: 15px;
+        //styleName: Heading 4;
+        font-family: "Aleo", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: rgb(255, 255, 255);
+        margin-right: 3px;
+      }
+    }
+    @media (max-width: 680px) {
+      .bhromaon__search {
+        width: 90%;
+      }
+    }
+  }
+  .bhromaon__scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    //styleName: Body 1;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    margin-top: 3%;
+  }
+  .bhromaon__scroll::before {
+    content: "";
+    position: absolute;
+    top: 26px;
+    left: 49%;
+    background: url("img/chevron-down.svg") no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+}

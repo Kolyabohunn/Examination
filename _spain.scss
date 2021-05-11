@@ -1,0 +1,69 @@
+.spain__row {
+  width: 100%;
+  min-height: 684px;
+  background: url("img/render-1477041_1280\ 1.jpg") 50% no-repeat;
+  display: flex;
+  align-items: center;
+}
+.spain__content {
+  display: flex;
+  justify-content: flex-end;
+}
+.spain__box {
+  display: flex;
+  max-width: 648px;
+  min-height: 344px;
+  background: rgba(35, 35, 35, 0.9);
+}
+.spain__logo {
+  //styleName: Heading 6;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: rgb(255, 255, 255);
+}
+.spain__title {
+  //styleName: Heading 5;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.spain__desc {
+  //styleName: Body 2;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: rgb(255, 255, 255);
+}
+.spain__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 32px;
+}
+.spain__row2 {
+  width: 100%;
+  min-height: 684px;
+  background: url("img/spain-1859434_1280\ 1.jpg") 50% no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.spain__box2 {
+  display: flex;
+  max-width: 648px;
+  min-height: 344px;
+  background: rgba(35, 35, 35, 0.9);
+  justify-content: flex-end;
+  align-items: center;
+}
